@@ -1,0 +1,21 @@
+{
+  "name": "xidu-weread-insights",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "细读 · 微信读书个人阅读数据看板（多账号接入 + 明暗主题）",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "dev": "node server/src/index.js",
+    "build": "npm --prefix web run build",
+    "seed": "node server/scripts/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,30 @@
+# ---------- 依赖 ----------
+node_modules/
+
+# ---------- 构建产物 ----------
+dist/
+.vite/
+*.tsbuildinfo
+
+# ---------- 本地密钥与个人数据（绝不入库）----------
+.env
+.env.local
+.env.*.local
+storage/
+
+# 截图包含个人书架 / 阅读统计 / 笔记内容，默认不入库
+screenshots/
+
+# ---------- 日志与临时文件 ----------
+*.log
+npm-debug.log*
+yarn-error.log*
+*.tmp
+*.bak
+
+# ---------- 编辑器 / 系统 ----------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
